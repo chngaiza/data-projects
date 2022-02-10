@@ -21,7 +21,7 @@ It was created to perform data analysis for instruction-related questions and sc
 + Understand connection between tables.
 + Analyze processed student data.
 + Find actionable instruction insights.
-+ Alter sessions based on trends.
++ Alter sessions based on data trends.
 
 
 ## [Car Dealership Analysis Exercise](Car%20Dealership%20Analysis%20Exercise)
