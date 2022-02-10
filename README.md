@@ -14,7 +14,7 @@ A compilation of completed data &amp; analytics projects/exercises
 
 # Projects & Exercises
 
-## [Student Instruction Database & Analysis Project]()
+## [Student Instruction Database & Analysis Project](Student%20Instruction%20Database%20%26%20Analysis%20Project)
 PostgreSQL project with real-world implications, which developed a student database, and analyzed the efficacy of instruction techniques.
 It was created to perform data analysis for instruction-related questions and scenarios. 
 + Design database schema visualization and key relationships.
