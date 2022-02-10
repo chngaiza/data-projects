@@ -12,16 +12,16 @@ A compilation of completed data &amp; analytics projects/exercises
 
 ## [Student Instruction Database & Analysis Project]()
 PostgreSQL project which developed a student database, and analyzed the efficacy of instruction techniques.
-It is used to perform data analysis for real world business related questions and scenarios such as
-+ find out the rewarding system for the loyal users
-+ launching campaign to target the weekdays with the most user registerations
-+ encouraging inactive users to log in back to the system
+It was used to perform data analysis instruction-related questions and scenarios. 
++ Design database schema visualization and key relationships.
++ Understand connection between tables.
++ Analyze processed student data.
++ Find actionable instruction insights.
++ Alter sessions based on trends.
 
 
 ## [Car Dealership Analysis Exercise]()
 PostgreSQL data analysis exercise observing a pseudo-car dealership database.
-+ perform data analysis for user behaviours
-+ discover marketing stats
-+ find actionable customer/business insights
-+ measure and track marketing efforts
-+ etc.
++ Have a grasp on the structure of the database.
++ Run queries based on the produced questions.
++ Develop ability to join tables, create views, and stored procedures.
