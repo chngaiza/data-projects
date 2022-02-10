@@ -24,7 +24,7 @@ It was created to perform data analysis for instruction-related questions and sc
 + Alter sessions based on trends.
 
 
-## [Car Dealership Analysis Exercise]()
+## [Car Dealership Analysis Exercise](Car%20Dealership%20Analysis%20Exercise)
 PostgreSQL data analysis exercise observing a pseudo-car dealership database.
 + Have a grasp on the structure of the database.
 + Generate transferrable mock data.
