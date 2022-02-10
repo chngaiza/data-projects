@@ -8,6 +8,10 @@ A compilation of completed data &amp; analytics projects/exercises
 	+ PostgreSQL
 	+ SQLite
 
++ Tools
+	+ pgAdmin
+	+ SQLiteStudio
+
 # Projects & Exercises
 
 ## [Student Instruction Database & Analysis Project]()
