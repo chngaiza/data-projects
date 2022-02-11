@@ -28,5 +28,5 @@ It was created to perform data analysis for instruction-related questions and sc
 PostgreSQL data analysis exercise observing a pseudo-car dealership database.
 + Realize the structure of the database.
 + Generate transferrable mock data.
-+ Run queries based on the produced questions.
++ Run queries based on the provided questions.
 + Foster SQL abilities, including joining tables, and creating views.
