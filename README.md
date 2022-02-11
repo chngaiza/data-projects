@@ -29,4 +29,4 @@ PostgreSQL data analysis exercise observing a pseudo-car dealership database.
 + Realize the structure of the database.
 + Generate transferrable mock data.
 + Run queries based on the provided questions.
-+ Foster SQL abilities, including joining tables, and creating views.
++ Foster SQL abilities, including joining tables, creating views, and stored procedures.
