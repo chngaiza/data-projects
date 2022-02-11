@@ -1,4 +1,4 @@
-# Data Analytics Projects
+# Data & Analytics Projects
 A compilation of completed data &amp; analytics projects/exercises
 
 ### Built with
