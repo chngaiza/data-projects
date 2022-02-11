@@ -20,12 +20,12 @@ It was created to perform data analysis for instruction-related questions and sc
 + Design database schema visualization and key relationships.
 + Understand connection between tables.
 + Analyze processed student data.
-+ Find actionable instruction insights.
++ Find actionable insights for optimized session output.
 + Alter sessions based on data trends.
 
 **Process**: Following the distinction of data types, column names and constraints, entity integrity was established through the assignment of a primary key column. This column denoted the unique instances of student data in each row. Referential integrity was maintained through foreign keys, which linked tables together by a commonality. These keys aided in the further understanding of the relationships between the students, their grades, and other internally contributing variables like session length. After the initial insertion of data, the tables in this database were continually updated over time and queries would be used to scan, gain insights, and maintain the overall integrity of the data. 
 
-**Conclusion**: I used Postgres queries to filter information and draw conclusions on what I should alter in my methods, including session length, and length of time spent as a student. Through comparative processes and analysis, I was ultimately able to determine that a combination of shorter, more focused sessions was more conducive to high grade averages for my students’ essay assignments, which were observable after only a short period of time. 
+**Conclusion**: Postgres queries were used to filter information and draw conclusions on what should be altered in instruction methods, including session length, and length of time spent as a student. Through comparative processes and analysis, analysis was ultimately able to determine that a combination of shorter, more focused sessions was more conducive to high grade averages for the students’ essay assignments, which were observable after only a short period of time. 
 
 
 ## [Car Dealership Analysis Exercise](Car%20Dealership%20Analysis%20Exercise)
