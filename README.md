@@ -19,6 +19,7 @@ PostgreSQL project with real-world implications, which developed a student datab
 It was created to perform data analysis for instruction-related questions and scenarios. The goal of this database was to aid in the iterative improvement of my practices as an instructor, through understanding of the relevant data, notably the grades students would receive on assignments.
 + Design database schema visualization and key relationships.
 + Understand connection between tables.
++ Potentially identify and subsequently clean any data anomalies.
 + Analyze processed student data.
 + Find actionable insights for optimized session output.
 + Alter sessions based on data trends.
@@ -30,7 +31,7 @@ It was created to perform data analysis for instruction-related questions and sc
 
 ## [Car Dealership Analysis Exercise](Car%20Dealership%20Analysis%20Exercise)
 PostgreSQL data analysis exercise observing a pseudo-car dealership database.
-+ Realize the structure of the database.
++ Realize the structure/schema of the database.
 + Generate transferrable mock data.
 + Run queries based on the provided questions.
 + Foster SQL abilities, including joining tables, creating views, and stored procedures.
