@@ -44,3 +44,5 @@ CREATE TABLE dealerships (
 	location_name VARCHAR(50) NOT NULL
 );
 	
+
+
