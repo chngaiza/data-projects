@@ -11,6 +11,7 @@ A compilation of completed data analytics projects/exercises
 + Tools
 	+ pgAdmin
 	+ SQLiteStudio
+	+ Visual Studio Code  	
 
 # Projects & Exercises
 
