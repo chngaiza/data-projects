@@ -1,0 +1,39 @@
+
+SQL Specifications – Case Study (Risk Adjustment)
+
+Process:
+
+1.	Ensure all table values are in a usable format (dates, codes, etc.). 
+2.	Convert excel files into csv format.
+3.	Upload csv tables into SQL Lite Studio
+4.	Use select * limit statements to check data in each table (row counts, formatting, etc.). 
+5.	Confirm total row amount for each table used. 
+    a.	5316 rows in the inpatient claims table
+    b.	6000 rows in the eligibility table.
+6.	Create a base on inpatient claims, and only bring in admitting diagnosis codes. 
+7.	Left join in HCC crosswalk on ICD codes from inpatient claims.
+8.	Left join the eligibility table on member id and year, to get proper risk score attribution, based on the service year. 
+9.	Round risk scores to 3rd decimal place for legibility. 
+10.	5342 rows in the initial output, indicating duplicates. 
+    a.	After exporting to excel, CONCAT() function was used on member id, date of service, and ICD code. 
+    b.	Conditional formatting is used to identify duplicates.
+    c.	Duplicates were being caused by the ICD code description field which was removed. Duplicates were resolved as a result. 
+11.	The inpatient claims table has 1363 distinct members across all three service years.
+    a.	A distinct entry per member per year results in 3023 rows. 
+12.	Create temp table based on intial admitting diagnoses code query.
+13.	Querying off the initial admit table, create a case statement to establish recaptured condition logic. 
+    a.	If the condition existed in the previous year, and the current, the condition is classified as recaptured. 
+14.	Create a field for unique conditions (member + hcc), using a case statement to account for nulls/blank cells. 
+15.	Create a base on inpatient claims, and only bring in inpatient diagnosis codes. 
+16.	Establish three queries for each ICD code field in inpatient claim and union them together. 
+    a.	This is a best practice as it alleviates the need for more steps in join logic.
+17.	Left join the eligibility table on member id and year, to get proper risk score attribution, based on the service year. 
+18.	Round risk scores to 3rd decimal place for legibility. 
+19.	Create temp table based on initial inpatient diagnoses code query.
+20.	Querying off the initial inpatient table, create a case statement to establish recaptured condition logic. 
+    a.	Same logic previously stated for admitting diagnosis table. (11a.)
+21.	Create a field for unique conditions (member + hcc), using a case statement to account for nulls/blank cells. 
+22.	Use the eligibility table as a base for estimated revenue calculation.
+23.	Use the inpatient claims table as a base for actual revenue calculation.
+    a.	Left join in the eligibility table on person_id and year to bring in member months and member level risk scores.
+24.	Export all data into an excel document and use pivot tables & formulas to provide insights into the data. 
