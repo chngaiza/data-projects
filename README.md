@@ -32,7 +32,7 @@ It was created to perform data analysis for instruction-related questions and sc
 ## [Case Study #1](Case%20Study%20%231%20)
 SQLite case study featuring healthcare risk adjustment data analysis using fake data.
 
-## [**Process**](
+## [**Process**](Case%20Study%20%231%20/Case%20Study%20%231%20-%20SQL%20Specifications)
 
 ## [**Conclusion**](
 
