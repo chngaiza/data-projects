@@ -29,6 +29,9 @@ It was created to perform data analysis for instruction-related questions and sc
 
 **Conclusion**: Postgres queries were used to filter information and draw conclusions on what should be altered in instruction methods, including session length, and length of time spent as a student. Through comparative processes and analysis, analysis was ultimately able to determine that a combination of shorter, more focused sessions were more conducive to higher grade averages for the students’ essay assignments, observable after only a short period of time. 
 
+## [Case Study #1](Case%20Study%20%231%20)
+
+
 
 ## [Car Dealership Analysis Exercise](Car%20Dealership%20Analysis%20Exercise)
 PostgreSQL data analysis exercise observing a pseudo-car dealership database.
