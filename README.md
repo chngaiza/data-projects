@@ -32,9 +32,20 @@ It was created to perform data analysis for instruction-related questions and sc
 ## [Case Study #1](Case%20Study%20%231%20)
 SQLite case study featuring healthcare risk adjustment data analysis using fake data.
 
-## [Process](Case%20Study%20%231%20/Case%20Study%20%231%20-%20SQL%20Specifications)
+## [Process Documentation](Case%20Study%20%231%20/Case%20Study%20%231%20-%20SQL%20Specifications)
 
-## [Conclusion](
+**Conclusion**: 
++ There is a positive correlation between risk scores and condition capture.
++ As the rates of condition capture increase over time, risk scores increase parallel to them. Condition capture, and especially recapture, increases risk score accuracy and allows us to have a better sense of 
+  member level health status. 
++ Inpatient encounters, when compared to outpatient, do not perform well in condition recapture, due to their being less of them overall, and due to the acute nature of the encounters themselves. 
++ Revenue estimates can give providers a good sense of opportunity, especially when the base rate used accurately reflects service cost, but high-level overviews based on a static volume of members that doesn’t 
+  take into consideration factors like churn, ultimately do not adequately reflect actualized financial values. 
++ Some suggestions to improve the analysis in a way that would provide vital member level granularity:
++ A larger claims data set would allow for a broader lookback at condition capture performance. 
++ Further member details like age, region, and PCP would allow for deeper insights into the population, with the potential for enlightening results that could be used to anchor outreach strategy on. 
++ Although still precursory in risk adjustment, Z-codes, or social determinants of health, would allow for even greater looks into this particular set of data, and build out far more accurate predictive 	 
+  analytics. 
 
 ## [Car Dealership Analysis Exercise](Car%20Dealership%20Analysis%20Exercise)
 PostgreSQL data analysis exercise observing a pseudo-car dealership database.
