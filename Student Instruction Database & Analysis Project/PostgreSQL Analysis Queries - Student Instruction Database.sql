@@ -9,7 +9,7 @@ inner join sessions s
   on e.id = s.essay_id
 inner join essay_results er 
   on e.id = er.essay_id
-order by er.grade desc;
+order by 3 desc;
 
 2.	What courses typically receive the highest grades?
   
