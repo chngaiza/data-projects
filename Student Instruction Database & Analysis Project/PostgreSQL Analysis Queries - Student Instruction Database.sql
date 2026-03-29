@@ -34,7 +34,8 @@ course as (
 select 
   course.id, 
   course.course_name, 
-  avg(essay_results.grade) as average_grade
+  avg(essays.session_length_min) as avg_session_length,
+  avg(essay_results.grade) as avg_grade
 from essays 
 left join course 
   on essays.course_id = course.id
